@@ -1,0 +1,19 @@
+[Unit]
+Description=ts_client
+
+[Service]
+#ExecStart=/home/osmc/luloclient/dist/server.js
+ExecStart=/usr/local/bin/node /home/osmc/luloclient/dist/server.js
+Restart=always
+#User=nobody
+# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+#Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/home/osmc/luloclient
+RestartSec=10s
+Restart=on-failure
+
+[Install]
+#WantedBy=multi-user.target
+WantedBy=default.target
