@@ -1,6 +1,6 @@
 {
   "name": "ts_client",
-  "version": "1.0.114",
+  "version": "1.0.115",
   "description": "",
   "repository": {
     "type": "git",
@@ -47,8 +47,10 @@
     "fs-extra": "^8.1.0",
     "ftp": "^0.3.10",
     "gps": "^0.4.7",
+    "image-convert": "^0.1.33",
     "is-corrupted-jpeg": "^1.0.2",
     "is-image": "^3.0.0",
+    "jimp": "^0.8.5",
     "jpeg-extract": "^3.0.1",
     "jsonwebtoken": "^8.5.0",
     "lodash": "^4.17.15",
