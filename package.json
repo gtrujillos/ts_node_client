@@ -1,6 +1,6 @@
 {
   "name": "ts_client",
-  "version": "1.0.135",
+  "version": "1.0.137",
   "description": "",
   "main": "dist/server.js",
   "bin": "dist/server.js",
