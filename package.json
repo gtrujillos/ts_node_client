@@ -57,7 +57,7 @@
     "jsonwebtoken": "^8.5.0",
     "lodash": "^4.17.15",
     "lusca": "^1.5.2",
-    "mongoose": "^4.13.11",
+    "mongoose": "^5.7.5",
     "mqtt": "^3.0.0",
     "mt-files-downloader": "^0.2.5",
     "mysql2": "^1.5.3",
