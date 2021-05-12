@@ -65,7 +65,7 @@
     "node-cmd": "^3.0.0",
     "node-kodi": "0.0.2-alpha",
     "node-mediainfo": "^1.0.2",
-    "nodemailer": "^4.4.1",
+    "nodemailer": "^6.4.16",
     "pad": "^2.2.1",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
